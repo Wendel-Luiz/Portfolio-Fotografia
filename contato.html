@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a18e562e29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar ">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+            <div class="menu">
+                <div class="menu--icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="menu--content">
+                    <ul>
+                        <li class="menu-titulo"><a href="index.html">Portfólio</a></li>
+                        <div class="albuns">
+                            <li ><a href="">Fotos artísticas</a></li>
+                            <li><a href="comida.html">Comida</a></li>
+                            <li><a href="infantil.html">Ensaios infantis</a></li>
+                            <li><a href="individuais.html">Ensaios individuais</a></li>
+                            <li><a href="casais.html">Casais</a></li>
+                        </div>
+                        
+                        <li class="menu-titulo"><a  id="menu-atual"  href="">Contato</a></li>
+                        <li class="menu-titulo"><a href="sobre.html">Sobre mim</a></li>
+                    </ul>
+                </div>    
+            </div>
+
+            <div class="social-media">
+                <ul>
+                    <li id="instagram">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li id="linkedin">
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li id="facebook">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <li class="menu-copyright"><a href="sobre.html">By Wendel Luiz</a></li>
+        </nav>
+        <main>
+            <div class="container-contato">
+                <form action="">
+                    <div class="form-name">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="form-email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="">
+                        <label for="msg">Mensagem</label>
+                        <textarea name="msg" id="" rows="10" maxlength="1500"></textarea>    
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="more-info">
+                    <div class="tel">
+                        <span><i class="fas fa-phone-square-alt"></i></span><p>(42) 12345-7899</p>
+                    </div>
+                    <div class="wpp">
+                        <span><i class="fab fa-whatsapp"></i></span><p>(42) 12345-7899</p>
+                    </div>
+                    <div class="email">
+                        <span><i class="far fa-envelope-open"></i></span><p>myemail@exemplo.com</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div> 
+    <script src="app.js"></script>
+</body>
+</html>
